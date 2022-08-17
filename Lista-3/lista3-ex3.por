@@ -20,12 +20,12 @@ programa
 		escreva("SELF-SERVICE")
 		escreva("\n************")
 		escreva("\nTara do prato: ", tara, "g")
-		escreva("\n4R$/Kg")
-		escreva("\n", precoKG, "R$")
+		escreva("\nR$4.00/Kg")
+		escreva("\nR$", precoKG, "0")
 
 		valorTotal = precoKG + valorTara
 
-		escreva("\nValor Total: ", valorTotal, "R$")
+		escreva("\nValor Total: R$", valorTotal)
 		
 		
 		
@@ -37,7 +37,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 372; 
+ * @POSICAO-CURSOR = 811; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
